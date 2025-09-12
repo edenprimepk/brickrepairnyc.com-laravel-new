@@ -98,7 +98,7 @@
 
                 <input id='faq-a' type='checkbox'>
                 <label for='faq-a'>
-                    <p class="faq-heading">What services do you offer?</p>
+                    <h2 class="faq-heading">What services do you offer?</h2>
                     <div class='faq-arrow'></div>
                     <p class="faq-text">We provide a wide range of sidewalk services, including repairs, installations, concrete pouring, and maintenance. We can handle both residential and commercial projects.</p>
                 </label>

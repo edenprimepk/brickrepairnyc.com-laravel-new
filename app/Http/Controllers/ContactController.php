@@ -11,11 +11,6 @@ use Illuminate\Support\Facades\Storage;
 
 class ContactController extends Controller
 {
-    public function index(){
-   
-        return view('contact-us');
-    }
-
     public function contact(Request $request)
     {
   
@@ -32,7 +27,7 @@ class ContactController extends Controller
 
         
 
-        $redirectUrl = $request->input('redirect_url', route('frontend.contact-us'));
+        $redirectUrl = $request->input('redirect_url', route('contact.submit'));
         if ($validator->fails()) {
             return redirect($redirectUrl)
                 ->withErrors($validator)
@@ -40,8 +35,8 @@ class ContactController extends Controller
         }
 
         Mail::to('f@edengc.com')->send(new Contact($request->all()));
-        $request->session()->flash('success', 'Thank you for contacting us.');
-        return redirect($redirectUrl);
+        return redirect()->to(url()->previous() . '#custom-form')
+            ->with('success', '✅ Thank you for contacting us. We will get back to you soon.');
     }
 
 
