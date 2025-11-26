@@ -11,7 +11,7 @@
 <link href="{{ asset('assets/css/magnific-popup.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/custom-style.css') }}" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.min.css') }}">
-<link rel="icon" href="{{ asset('assets/img/favicon.jpg') }}" type="image/jpg">
+<link rel="icon" href="{{ asset('assets/img/favicon.png') }}" type="image/png">
 <!-- Google Tag Manager -->
 <script>
     (function(w, d, s, l, i) {
