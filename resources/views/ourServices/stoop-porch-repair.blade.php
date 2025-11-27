@@ -40,7 +40,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC offers expert stoop and porch repair
+                            <p>With over 30 years of experience, Walk Pro Contractors offers expert stoop and porch repair
                                 services for residential and commercial properties across New York City. Whether you're
                                 dealing with cracked steps, loose bricks, or crumbling mortar, our skilled team restores
                                 safety, function, and curb appeal with precision and care. From historic brownstone stoops

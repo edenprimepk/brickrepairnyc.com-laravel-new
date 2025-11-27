@@ -40,7 +40,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC specializes in expert brick parapet
+                            <p>With over 30 years of experience, Walk Pro Contractors specializes in expert brick parapet
                                 restoration across New York City. We restore and reinforce parapet walls to ensure safety,
                                 structural integrity, and aesthetic appeal for both residential and commercial buildings.
                                 Whether your parapet shows signs of cracking, leaning, or mortar deterioration, our skilled

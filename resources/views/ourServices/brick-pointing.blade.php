@@ -35,7 +35,7 @@
                             <h1>Trusted Brick Pointing Experts in NYC – 30+ Years of Excellence
 
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC is a trusted name in brick pointing and
+                            <p>With over 30 years of experience, Walk Pro Contractors is a trusted name in brick pointing and
                                 masonry services across New York City. We serve both residential and commercial clients,
                                 delivering high-quality craftsmanship that preserves and enhances your property's structure
                                 and appearance. From brownstones to commercial buildings, we handle each project with

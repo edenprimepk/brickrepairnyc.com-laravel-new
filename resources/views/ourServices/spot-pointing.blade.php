@@ -33,7 +33,7 @@
                         <div class="blog-entry-content">
                             <h1>Trusted Spot Pointing Experts in NYC – 30+ Years of Excellence
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC is a trusted expert in spot pointing
+                            <p>With over 30 years of experience, Walk Pro Contractors is a trusted expert in spot pointing
                                 throughout New York City. We serve both residential and commercial clients, providing
                                 targeted, high-quality repairs that restore structural integrity and improve your property's
                                 appearance. Whether it's addressing weathered mortar joints on a brownstone or localized

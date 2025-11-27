@@ -2,7 +2,7 @@
 @section('meta-tags')
     <title>Expert Brick Solutions in NYC | Brick Repair NYC</title>
     <meta name="description"
-        content="Trust Brick Repair NYC for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!">
+        content="Trust Walk Pro Contractors for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!">
 @endsection
 @section('og-tags')
     <!-- Open Graph -->
@@ -10,9 +10,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Expert Brick Solutions in NYC | Brick Repair NYC" />
     <meta property="og:description"
-        content="Trust Brick Repair NYC for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!" />
+        content="Trust Walk Pro Contractors for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!" />
     <meta property="og:url" content="https://www.brickrepairnyc.com/" />
-    <meta property="og:site_name" content="Brick Repair NYC" />
+    <meta property="og:site_name" content="Walk Pro Contractors" />
     <meta property="og:image" content="https://www.brickrepairnyc.com/assets/img/image-1.jpg" />
     <meta property="og:image:alt" content="Expert brick repair services in NYC" />
     <meta property="og:image:width" content="1200" />
@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Expert Brick Solutions in NYC | Brick Repair NYC" />
     <meta name="twitter:description"
-        content="Trust Brick Repair NYC for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!" />
+        content="Trust Walk Pro Contractors for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!" />
     <meta name="twitter:image" content="https://www.brickrepairnyc.com/assets/img/image-1.jpg" />
     <meta name="twitter:image:alt" content="Expert brick repair services in NYC" />
 @endsection
@@ -36,7 +36,7 @@
                     <div class="header-caption">
                         <h1 class="caption-title" style="font-weight: bold">Brick Restoration with NYC's Finest Brick Repair Team.</h1>
                         <p>
-                            At Brick Repair NYC, we take pride in being your go-to experts for all your brickwork
+                            At Walk Pro Contractors, we take pride in being your go-to experts for all your brickwork
                             needs.
                             With 30 years of experience and a high level of skills, our team of professional
                             experts is dedicated to providing exceptional brick repair, replacement, and
@@ -587,7 +587,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="text-center">
-                            <h2>Why Choose Brick Repair NYC?</h2>
+                            <h2>Why Choose Walk Pro Contractors?</h2>
                         </div>
                     </div>
                 </div>
@@ -680,7 +680,7 @@
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <p>"Brick Repair NYC did an outstanding job on our brownstone facade. The team
+                                    <p>"Walk Pro Contractors did an outstanding job on our brownstone facade. The team
                                         was punctual,
                                         professional, and kept the area clean throughout the process. They matched
                                         the old brick
@@ -689,7 +689,7 @@
                                             P.</strong>Brooklyn, NY</span>
                                 </div>
                                 <div class="item">
-                                    <p>"We hired Brick Repair NYC for chimney restoration and pointing work, and
+                                    <p>"We hired Walk Pro Contractors for chimney restoration and pointing work, and
                                         they exceeded
                                         expectations. Great communication, fair pricing, and skilled workmanship.
                                         Our home looks
@@ -709,7 +709,7 @@
                                         NY</span>
                                 </div>
                                 <div class="item">
-                                    <p>"After years of patchy repairs from other contractors, Brick Repair NYC
+                                    <p>"After years of patchy repairs from other contractors, Walk Pro Contractors
                                         finally got the
                                         job done right. Their crew handled our parapet restoration with care and
                                         precision. The
@@ -831,7 +831,7 @@
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse5" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        Can Brick Repair NYC match the color and texture of my
+                                                        Can Walk Pro Contractors match the color and texture of my
                                                         existing bricks
                                                         for replacement?
                                                     </a>
@@ -898,7 +898,7 @@
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse8" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        Is Brick Repair NYC insured?
+                                                        Is Walk Pro Contractors insured?
 
                                                     </a>
                                                 </h2>
@@ -1082,7 +1082,7 @@
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse17" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        Is Brick Repair NYC available for commercial properties?
+                                                        Is Walk Pro Contractors available for commercial properties?
 
                                                     </a>
                                                 </h2>
@@ -1101,7 +1101,7 @@
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse18" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        How do I schedule an appointment with Brick Repair NYC?
+                                                        How do I schedule an appointment with Walk Pro Contractors?
 
                                                     </a>
                                                 </h2>

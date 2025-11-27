@@ -34,7 +34,7 @@
                         <div class="blog-entry-content">
                             <h1>Trusted Brick Grinding Experts in NYC – 30+ Years of Excellence
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC is a trusted provider of professional
+                            <p>With over 30 years of experience, Walk Pro Contractors is a trusted provider of professional
                                 brick grinding services across New York City. We serve both residential and commercial
                                 properties, expertly removing old, deteriorated mortar to prepare walls for repointing or
                                 restoration. Our precise grinding techniques ensure clean joints and a solid foundation for

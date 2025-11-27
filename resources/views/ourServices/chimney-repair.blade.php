@@ -42,7 +42,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC provides reliable and professional chimney
+                            <p>With over 30 years of experience, Walk Pro Contractors provides reliable and professional chimney
                                 repair services throughout New York City. We specialize in fixing cracked bricks,
                                 deteriorating mortar, leaning structures, and other chimney issues that can affect both
                                 safety and performance. Whether it’s a residential brownstone or a commercial building, our

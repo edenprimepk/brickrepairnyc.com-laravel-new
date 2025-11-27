@@ -46,7 +46,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC specializes in professional brick steps
+                            <p>With over 30 years of experience, Walk Pro Contractors specializes in professional brick steps
                                 repair services across New York City. We restore cracked, uneven, or deteriorating brick
                                 steps for both residential and commercial properties, ensuring safety, durability, and curb
                                 appeal. Whether it’s a historic brownstone stoop or modern entryway, our skilled team

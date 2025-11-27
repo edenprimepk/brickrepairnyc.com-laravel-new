@@ -1,7 +1,7 @@
 @extends('components.master-layout')
 @section('meta-tags')
     <meta name="description"
-        content="Contact Brick Repair NYC for a free quote or to schedule an inspection. Fast response, reliable service, and licensed professionals.
+        content="Contact Walk Pro Contractors for a free quote or to schedule an inspection. Fast response, reliable service, and licensed professionals.
 ">
     <title> Contact Us Today to Get a Free Estimate
     </title>

@@ -44,7 +44,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC offers expert brick wall repair services
+                            <p>With over 30 years of experience, Walk Pro Contractors offers expert brick wall repair services
                                 throughout New York City. We handle everything from cracked or damaged walls to mortar
                                 deterioration, restoring both the strength and appearance of residential and commercial
                                 brick structures. Our team ensures repairs are seamless, durable, and in keeping with your

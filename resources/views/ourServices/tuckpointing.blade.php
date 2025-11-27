@@ -31,7 +31,7 @@
                         <div class="blog-entry-content">
                             <h1>Trusted Tuckpointing Experts in NYC – 30+ Years of Excellence
                             </h1>
-                            <p>With over 30 years of experience, Brick Repair NYC is a trusted name in tuckpointing across
+                            <p>With over 30 years of experience, Walk Pro Contractors is a trusted name in tuckpointing across
                                 New York City. We work with both residential and commercial clients, delivering precise,
                                 high-quality workmanship that strengthens and enhances your building’s structure and curb
                                 appeal. From restoring intricate mortar joints on historic brownstones to reinforcing
