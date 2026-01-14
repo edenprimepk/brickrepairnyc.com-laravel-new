@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h1 class="main-title-primary">Privacy Policy</h1>
-                <h4 class="main-title-secondary">At Walk Pro Contractors, a trusted brick repair and masonry contractor serving New York City, we value the privacy and security of our clients' personal information. This Privacy Policy outlines how we collect, use, and safeguard your data in the course of providing our services.</h4>
+                <h4 class="main-title-secondary">At <a href="/">Falcon Brickworks NYC</a>, a trusted brick repair and masonry contractor serving New York City, we value the privacy and security of our clients' personal information. This Privacy Policy outlines how we collect, use, and safeguard your data in the course of providing our services.</h4>
             </div><!-- .col-## -->
         </div><!-- .row -->
     </div><!-- .container -->

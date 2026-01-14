@@ -48,7 +48,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.brick-pointing') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/a-mason-applies-cement-to-a-brick-to-build-a-wall-2025-01-08-09-24-38-utc_1_1_11zon.webp"
+                                            <img src="{{ asset('assets') }}/img/services/a-mason-applies-cement-to-a-brick-to-build-a-wall-2025-01-08-09-24-38-utc_1_1_11zon.webp"
                                                 alt="Brick Pointing" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -71,7 +71,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.tuckpointing') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-15-23-47-utc_10_11zon.webp"
+                                            <img src="{{ asset('assets') }}/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-15-23-47-utc_10_11zon.webp"
                                                 alt="Tuckpointing" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -94,7 +94,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.spot-pointing') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-01-07-59-utc_9_11zon.webp"
+                                            <img src="{{ asset('assets') }}/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-01-07-59-utc_9_11zon.webp"
                                                 alt="Spot Pointing" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -118,7 +118,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.brick-grinding') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/industrial-worker-using-an-grinder-for-cutting-and-2024-09-22-23-56-31-utc_3_3_11zon.webp"
+                                            <img src="{{ asset('assets') }}/img/services/industrial-worker-using-an-grinder-for-cutting-and-2024-09-22-23-56-31-utc_3_3_11zon.webp"
                                                 alt="Brick Grinding" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -141,7 +141,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.brick-repair') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/bricklayer-puts-bricks-to-make-a-wall-2024-10-18-08-17-59-utc_2_2_11zon.webp"
+                                            <img src="{{ asset('assets') }}/img/services/bricklayer-puts-bricks-to-make-a-wall-2024-10-18-08-17-59-utc_2_2_11zon.webp"
                                                 alt="Brick Repair & Replacement" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -152,7 +152,7 @@
                                         <div class="blog-entry-content">
                                             <p>Loose or cracked bricks not only look bad but also threaten...</p>
                                         </div>
-                                        <p class="text-center"><a href="/brick-repair"
+                                        <p class="text-center"><a href="{{ route('frontend.services.brick-repair') }}"
                                                 class="read-more btn btn-warning">Read
                                                 more +</a></p>
                                     </div>
@@ -163,7 +163,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.stoop-porch-repair') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/steptodown.com326603_6_11zon.webp"
+                                            <img src="{{ asset('assets') }}/img/services/steptodown.com326603_6_11zon.webp"
                                                 alt="Stoop & Porch Repair" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -187,7 +187,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.chimney-repair') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/steptodown.com445426_8_8_11zon.webp"
+                                            <img src="{{ asset('assets') }}/img/services/steptodown.com445426_8_8_11zon.webp"
                                                 alt="Chimney Repair" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -209,7 +209,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.parapet-restoration') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/brick parapet.webp"
+                                            <img src="{{ asset('assets') }}/img/services/brick parapet.webp"
                                                 alt="Brick Parapet Restoration" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -220,7 +220,7 @@
                                         <div class="blog-entry-content">
                                             <p>Parapet walls play a vital role in protecting your roof and facade...</p>
                                         </div>
-                                         <p class="text-center"><a href="/parapet-restoration"
+                                         <p class="text-center"><a href="{{ route('frontend.services.parapet-restoration') }}"
                                                 class="read-more btn btn-warning">Read
                                                 more +</a></p>
                                     </div>
@@ -231,7 +231,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.brick-wall-repair') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/steptodown.com254736_5_5_11zon.webp"
+                                            <img src="{{ asset('assets') }}/img/services/steptodown.com254736_5_5_11zon.webp"
                                                 alt="Brick Wall Repair" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">
@@ -255,7 +255,7 @@
                                     <div class="blog-entry">
                                         <a href="{{ route('frontend.services.brick-steps-repair') }}"
                                             class="blog-entry-thumbnail">
-                                            <img src="/assets/img/services/brick steps repair.webp"
+                                            <img src="{{ asset('assets') }}/img/services/brick steps repair.webp"
                                                 alt="Brick Steps Repair" class="img-responsive">
                                         </a>
                                         <div class="blog-entry-header">

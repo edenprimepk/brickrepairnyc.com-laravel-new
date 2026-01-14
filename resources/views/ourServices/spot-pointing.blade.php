@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/our-services">Services</a></li>
                         <li class="active">Spot Pointing
                         </li>
                     </ol>
@@ -33,7 +33,7 @@
                         <div class="blog-entry-content">
                             <h1>Trusted Spot Pointing Experts in NYC – 30+ Years of Excellence
                             </h1>
-                            <p>With over 30 years of experience, Walk Pro Contractors is a trusted expert in spot pointing
+                            <p>With over 30 years of experience, Falcon Brickworks NYC is a trusted expert in spot pointing
                                 throughout New York City. We serve both residential and commercial clients, providing
                                 targeted, high-quality repairs that restore structural integrity and improve your property's
                                 appearance. Whether it's addressing weathered mortar joints on a brownstone or localized
@@ -47,8 +47,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="blog-entry-thumbnail">
-                            <img src="/assets/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-01-07-59-utc_9_11zon.webp"
+                        <a   class="blog-entry-thumbnail">
+                            <img src="{{ asset('assets') }}/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-01-07-59-utc_9_11zon.webp"
                                 alt="Spot Pointing" class="img-responsive">
                         </a>
                     </div>

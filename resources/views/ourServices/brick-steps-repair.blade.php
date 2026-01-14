@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/our-services">Services</a></li>
                         <li class="active">Brick Steps Repair
 
 
@@ -46,7 +46,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Walk Pro Contractors specializes in professional brick steps
+                            <p>With over 30 years of experience, Falcon Brickworks NYC specializes in professional brick steps
                                 repair services across New York City. We restore cracked, uneven, or deteriorating brick
                                 steps for both residential and commercial properties, ensuring safety, durability, and curb
                                 appeal. Whether it’s a historic brownstone stoop or modern entryway, our skilled team
@@ -62,8 +62,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="blog-entry-thumbnail">
-                            <img src="/assets/img/services/brick steps repair.webp" alt="Brick Steps Repair"
+                        <a   class="blog-entry-thumbnail">
+                            <img src="{{ asset('assets') }}/img/services/brick steps repair.webp" alt="Brick Steps Repair"
                                 class="img-responsive">
                         </a>
                     </div>

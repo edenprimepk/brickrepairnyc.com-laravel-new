@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/our-services">Services</a></li>
                         <li class="active">Tuckpointing</li>
                     </ol>
                 </div>
@@ -31,7 +31,7 @@
                         <div class="blog-entry-content">
                             <h1>Trusted Tuckpointing Experts in NYC – 30+ Years of Excellence
                             </h1>
-                            <p>With over 30 years of experience, Walk Pro Contractors is a trusted name in tuckpointing across
+                            <p>With over 30 years of experience, Falcon Brickworks NYC is a trusted name in tuckpointing across
                                 New York City. We work with both residential and commercial clients, delivering precise,
                                 high-quality workmanship that strengthens and enhances your building’s structure and curb
                                 appeal. From restoring intricate mortar joints on historic brownstones to reinforcing
@@ -43,8 +43,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="blog-entry-thumbnail">
-                            <img src="/assets/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-15-23-47-utc_10_11zon.webp"
+                        <a   class="blog-entry-thumbnail">
+                            <img src="{{ asset('assets') }}/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-15-23-47-utc_10_11zon.webp"
                                 alt="Tuckpointing" class="img-responsive">
                         </a>
                     </div>

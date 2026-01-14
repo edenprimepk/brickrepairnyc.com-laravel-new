@@ -1,18 +1,18 @@
 @extends('components.master-layout')
 @section('meta-tags')
-    <title>Expert Brick Solutions in NYC | Brick Repair NYC</title>
+    <title>Expert Brick Solutions in NYC | Falcon Brickworks NYC</title>
     <meta name="description"
-        content="Trust Walk Pro Contractors for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!">
+        content="Trust Falcon Brickworks NYC for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!">
 @endsection
 @section('og-tags')
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Expert Brick Solutions in NYC | Brick Repair NYC" />
+    <meta property="og:title" content="Expert Brick Solutions in NYC | Falcon Brickworks NYC" />
     <meta property="og:description"
-        content="Trust Walk Pro Contractors for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!" />
+        content="Trust Falcon Brickworks NYC for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!" />
     <meta property="og:url" content="https://www.brickrepairnyc.com/" />
-    <meta property="og:site_name" content="Walk Pro Contractors" />
+    <meta property="og:site_name" content="Falcon Brickworks NYC" />
     <meta property="og:image" content="https://www.brickrepairnyc.com/assets/img/image-1.jpg" />
     <meta property="og:image:alt" content="Expert brick repair services in NYC" />
     <meta property="og:image:width" content="1200" />
@@ -20,9 +20,9 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Expert Brick Solutions in NYC | Brick Repair NYC" />
+    <meta name="twitter:title" content="Expert Brick Solutions in NYC | Falcon Brickworks NYC" />
     <meta name="twitter:description"
-        content="Trust Walk Pro Contractors for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!" />
+        content="Trust Falcon Brickworks NYC for top-notch brick repair and replacement services in New York City. Contact us today for a free estimate!" />
     <meta name="twitter:image" content="https://www.brickrepairnyc.com/assets/img/image-1.jpg" />
     <meta name="twitter:image:alt" content="Expert brick repair services in NYC" />
 @endsection
@@ -34,9 +34,10 @@
             <div class="row align-items-center">
                 <div class="col-sm-5 col-md-6 mt-5 text-white">
                     <div class="header-caption">
-                        <h1 class="caption-title" style="font-weight: bold">Brick Restoration with NYC's Finest Brick Repair Team.</h1>
+                        <h1 class="caption-title" style="font-weight: bold">Brick Restoration with NYC's Finest Brick Repair
+                            Team.</h1>
                         <p>
-                            At Walk Pro Contractors, we take pride in being your go-to experts for all your brickwork
+                            At Falcon Brickworks NYC, we take pride in being your go-to experts for all your brickwork
                             needs.
                             With 30 years of experience and a high level of skills, our team of professional
                             experts is dedicated to providing exceptional brick repair, replacement, and
@@ -148,8 +149,9 @@
                         <div class="contact-item-icon">
                             <i class="fa fa-phone"></i>
                         </div>
-                        <h4 class="contact-item-title">Phone:</h4>
-                        <div class="contact-item-info"><a href="tel:+16466533986">+1 (646) 653-3986</a></div>
+                        <span class="contact-item-title">Phone:</span>
+                        <div class="contact-item-info"><a class="contact-item-title" href="tel:+16466533986">+1 (646)
+                                653-3986</a></div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -157,8 +159,8 @@
                         <div class="contact-item-icon">
                             <i class="fa fa-envelope-o"></i>
                         </div>
-                        <h4 class="contact-item-title">Email address:</h4>
-                        <div class="contact-item-info"><a
+                        <span class="contact-item-title">Email address:</span>
+                        <div class="contact-item-info"><a class="contact-item-title"
                                 href="mailto:info@brickrepairnyc.com">info@brickrepairnyc.com</a></div>
                     </div>
                 </div>
@@ -168,8 +170,9 @@
                         <div class="contact-item-icon">
                             <i class="fa fa-map-marker"></i>
                         </div>
-                        <h4 class="contact-item-title">Office address:</h4>
-                        <div class="contact-item-info"><a>3467 Steenwick Ave, Bronx, NY 10475</a></div>
+                        <span class="contact-item-title">Office address:</span>
+                        <div class="contact-item-info"><a class="contact-item-title">3467 Steenwick Ave, Bronx, NY
+                                10475</a></div>
                     </div>
                 </div>
             </div>
@@ -201,8 +204,8 @@
                                         <div class="row">
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="/assets/img/services/a-mason-applies-cement-to-a-brick-to-build-a-wall-2025-01-08-09-24-38-utc_1_1_11zon.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/a-mason-applies-cement-to-a-brick-to-build-a-wall-2025-01-08-09-24-38-utc_1_1_11zon.webp"
                                                             alt="Construction Consultant" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -228,8 +231,8 @@
 
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="assets/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-15-23-47-utc_10_11zon.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-15-23-47-utc_10_11zon.webp"
                                                             alt="Construction Consultant" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -254,8 +257,8 @@
 
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="assets/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-01-07-59-utc_9_11zon.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/warming-the-walls-of-the-house-to-the-cold-constr-2025-01-09-01-07-59-utc_9_11zon.webp"
                                                             alt="metal roofting" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -282,8 +285,8 @@
                                         <div class="row">
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="assets/img/services/industrial-worker-using-an-grinder-for-cutting-and-2024-09-22-23-56-31-utc_3_3_11zon.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/industrial-worker-using-an-grinder-for-cutting-and-2024-09-22-23-56-31-utc_3_3_11zon.webp"
                                                             alt="General Contracting" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -309,8 +312,8 @@
 
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="assets/img/services/bricklayer-puts-bricks-to-make-a-wall-2024-10-18-08-17-59-utc_2_2_11zon.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/bricklayer-puts-bricks-to-make-a-wall-2024-10-18-08-17-59-utc_2_2_11zon.webp"
                                                             alt="Construction Management" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -333,8 +336,8 @@
                                             </div>
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="assets/img/services/steptodown.com326603_6_11zon.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/steptodown.com326603_6_11zon.webp"
                                                             alt="House Renovation" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -360,8 +363,8 @@
                                         <div class="row">
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="assets/img/services/brick steps repair.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/brick steps repair.webp"
                                                             alt="Design and Build" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -388,8 +391,8 @@
 
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="assets/img/services/brick parapet.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/brick parapet.webp"
                                                             alt="Design and Build" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -415,8 +418,8 @@
                                             </div>
                                             <div class="col-sm-4">
                                                 <div class="blog-entry">
-                                                    <a href="#" class="blog-entry-thumbnail">
-                                                        <img src="assets/img/services/steptodown.com254736_5_5_11zon.webp"
+                                                    <a class="blog-entry-thumbnail">
+                                                        <img src="{{ asset('assets') }}/img/services/steptodown.com254736_5_5_11zon.webp"
                                                             alt="Design and Build" class="img-responsive">
                                                     </a>
                                                     <div class="blog-entry-header">
@@ -466,58 +469,64 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <ul class="work-filter">
-                            <li class="active" data-filter="*"><a href="#">All works</a></li>
+                        {{-- <ul class="work-filter">
+                            <li class="active" data-filter="*"><a >All works</a></li>
                             <li data-filter=".buildings"><a href="#buildings">Brick Pointing</a></li>
                             <li data-filter=".interior-design"><a href="#interior-design">Chimmney Repairs</a>
                             </li>
                             <li data-filter=".isolation"><a href="#isolation">Brick Wall Repair</a></li>
                             <li data-filter=".house-renovation"><a href="#house-renovation">Brick Steps Repair</a>
                             </li>
-                        </ul>
+                        </ul> --}}
 
                         <ul class="work-grid">
                             <li class="work-item buildings">
-                                <a href="assets/img/blog-1.jpg" title="Avenue Hotels" class="image-lightbox">
+                                <a href="{{ asset('assets') }}/img/blog-1.jpg" title="Brick Pointing"
+                                    class="image-lightbox">
                                     <div class="work-item-image">
-                                        <img src="assets/img/blog-1.jpg" alt="Avenue Hotels">
+                                        <img src="{{ asset('assets') }}/img/blog-1.jpg" alt="Brick Pointing">
                                     </div>
                                 </a>
                             </li>
                             <li class="work-item interior-design">
-                                <a href="assets/img/blog-2.jpg" title="Mark Bedroom" class="image-lightbox">
+                                <a href="{{ asset('assets') }}/img/blog-2.jpg" title="Brick Pointing NYC"
+                                    class="image-lightbox">
                                     <div class="work-item-image">
-                                        <img src="assets/img/blog-2.jpg" alt="Mark Bedroom">
+                                        <img src="{{ asset('assets') }}/img/blog-2.jpg" alt="Brick Pointing NYC">
                                     </div>
                                 </a>
                             </li>
                             <li class="work-item buildings">
-                                <a href="assets/img/blog-3.jpg" title="Edu Hostel" class="image-lightbox">
+                                <a href="{{ asset('assets') }}/img/blog-3.jpg" title="Brick Work NYC"
+                                    class="image-lightbox">
                                     <div class="work-item-image">
-                                        <img src="assets/img/blog-3.jpg" alt="Edu Hostel">
+                                        <img src="{{ asset('assets') }}/img/blog-3.jpg" alt="Brick Work NYC">
                                     </div>
                                 </a>
                             </li>
                             <li class="work-item isolation house-renovation">
-                                <a href="assets/img/iblog-4.jpg" title="Alan Home" class="image-lightbox">
+                                <a href="{{ asset('assets') }}/img/blog-4.jpg" title="Brick Wall Repair"
+                                    class="image-lightbox">
                                     <div class="work-item-image">
-                                        <img src="assets/img/blog-4.jpg" alt="Alan Home">
+                                        <img src="{{ asset('assets') }}/img/blog-4.jpg" alt="Brick Wall Repair">
                                     </div>
 
                                 </a>
                             </li>
                             <li class="work-item interior-design house-renovation">
-                                <a href="assets/img/newimg1.jpg" title="Jannet Home" class="image-lightbox">
+                                <a href="{{ asset('assets') }}/img/newimg1.jpg" title="Brick Repair NYC"
+                                    class="image-lightbox">
                                     <div class="work-item-image">
-                                        <img style="height:214px; width:100%" src="assets/img/newimg1.jpg"
-                                            alt="Jannet Home">
+                                        <img style="height:214px; width:100%" src="{{ asset('assets') }}/img/newimg1.jpg"
+                                            alt="Brick Repair NYC">
                                     </div>
                                 </a>
                             </li>
                             <li class="work-item design photography">
-                                <a href="assets/img/who-we-are.jpg" title="Papa Ron's Restaurant" class="image-lightbox">
+                                <a href="{{ asset('assets') }}/img/who-we-are.jpg" title="brick Replace"
+                                    class="image-lightbox">
                                     <div class="work-item-image">
-                                        <img src="assets/img/who-we-are.jpg" alt="Papa Ron's Restaurant">
+                                        <img src="{{ asset('assets') }}/img/who-we-are.jpg" alt="brick Replace">
                                     </div>
                                 </a>
                             </li>
@@ -587,14 +596,14 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="text-center">
-                            <h2>Why Choose Walk Pro Contractors?</h2>
+                            <h2>Why Choose Falcon Brickworks NYC?</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="process-item highlight text-center">
-                            <img src="assets/img/choose-1.jpg" class="img-responsive">
+                            <img src="{{ asset('assets') }}/img/choose-1.jpg" class="img-responsive">
                             <div class="process-item-content">
                                 <span class="process-item-number">1</span>
                                 <h3 class="process-item-title">Expertise </h3>
@@ -609,7 +618,7 @@
 
                     <div class="col-md-3 col-sm-6">
                         <div class="process-item highlight text-center">
-                            <img src="assets/img/choose-3.jpg" class="img-responsive">
+                            <img src="{{ asset('assets') }}/img/choose-3.jpg" class="img-responsive">
                             <div class="process-item-content">
                                 <span class="process-item-number">2</span>
                                 <h3 class="process-item-title">Quality Materials
@@ -625,7 +634,7 @@
 
                     <div class="col-md-3 col-sm-6">
                         <div class="process-item highlight text-center">
-                            <img src="assets/img/choose-2.jpg" class="img-responsive">
+                            <img src="{{ asset('assets') }}/img/choose-2.jpg" class="img-responsive">
                             <div class="process-item-content">
                                 <span class="process-item-number">3</span>
                                 <h3 class="process-item-title">Custom Solutions
@@ -640,7 +649,7 @@
 
                     <div class="col-md-3 col-sm-6">
                         <div class="process-item highlight text-center">
-                            <img src="assets/img/choose-4.jpg" class="img-responsive">
+                            <img src="{{ asset('assets') }}/img/choose-4.jpg" class="img-responsive">
                             <div class="process-item-content">
                                 <span class="process-item-number">4</span>
                                 <h3 class="process-item-title">Transparency</h3>
@@ -680,7 +689,7 @@
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <p>"Walk Pro Contractors did an outstanding job on our brownstone facade. The team
+                                    <p>"Falcon Brickworks NYC did an outstanding job on our brownstone facade. The team
                                         was punctual,
                                         professional, and kept the area clean throughout the process. They matched
                                         the old brick
@@ -689,7 +698,7 @@
                                             P.</strong>Brooklyn, NY</span>
                                 </div>
                                 <div class="item">
-                                    <p>"We hired Walk Pro Contractors for chimney restoration and pointing work, and
+                                    <p>"We hired Falcon Brickworks NYC for chimney restoration and pointing work, and
                                         they exceeded
                                         expectations. Great communication, fair pricing, and skilled workmanship.
                                         Our home looks
@@ -709,7 +718,7 @@
                                         NY</span>
                                 </div>
                                 <div class="item">
-                                    <p>"After years of patchy repairs from other contractors, Walk Pro Contractors
+                                    <p>"After years of patchy repairs from other contractors, Falcon Brickworks NYC
                                         finally got the
                                         job done right. Their crew handled our parapet restoration with care and
                                         precision. The
@@ -724,7 +733,7 @@
             </div>
         </div>
 
-        <div class="content-section">
+        {{-- <div class="content-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -737,14 +746,14 @@
                                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingOne">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a role="button" data-toggle="collapse" data-parent="#accordion"
                                                         href="#collapseOne" aria-expanded="true"
                                                         aria-controls="collapseOne">
                                                         What is brick repair, and why is it necessary?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
                                                 aria-labelledby="headingOne">
@@ -760,14 +769,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
                                                         How do I identify if my bricks need repair?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -782,7 +791,7 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="heading3">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse3" aria-expanded="false"
                                                         aria-controls="collapseTwo">
@@ -790,7 +799,7 @@
 
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse3" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="heading3">
@@ -806,14 +815,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse4" aria-expanded="false"
                                                         aria-controls="collapseTwo">
                                                         How often should I schedule brick maintenance?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse4" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -827,15 +836,15 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse5" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        Can Walk Pro Contractors match the color and texture of my
+                                                        Can Falcon Brickworks NYC match the color and texture of my
                                                         existing bricks
                                                         for replacement?
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse5" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -849,14 +858,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse6" aria-expanded="false"
                                                         aria-controls="collapseTwo">
                                                         What is brick repointing, and when is it necessary?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse6" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -872,14 +881,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse7" aria-expanded="false"
                                                         aria-controls="collapseTwo">
                                                         What is the cost of brick repair or replacement services?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse7" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -894,14 +903,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse8" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        Is Walk Pro Contractors insured?
+                                                        Is Falcon Brickworks NYC insured?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse8" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -914,14 +923,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse9" aria-expanded="false"
                                                         aria-controls="collapseTwo">
                                                         Do you offer emergency brick repair services?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse9" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -935,7 +944,7 @@
 
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse10" aria-expanded="false"
                                                         aria-controls="collapseTwo">
@@ -943,7 +952,7 @@
 
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse10" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -957,14 +966,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse11" aria-expanded="false"
                                                         aria-controls="collapseTwo">
                                                         How long does brick repair or replacement typically take?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse11" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -976,7 +985,7 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse12" aria-expanded="false"
                                                         aria-controls="collapseTwo">
@@ -984,7 +993,7 @@
                                                         services?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse12" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -998,14 +1007,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse13" aria-expanded="false"
                                                         aria-controls="collapseTwo">
                                                         Can brick repair improve the energy efficiency of my home?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse13" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -1017,14 +1026,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse14" aria-expanded="false"
                                                         aria-controls="collapseTwo">
                                                         Do you provide free consultations?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse14" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -1037,7 +1046,7 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse15" aria-expanded="false"
                                                         aria-controls="collapseTwo">
@@ -1045,7 +1054,7 @@
                                                         repair?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse15" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -1057,7 +1066,7 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse16" aria-expanded="false"
                                                         aria-controls="collapseTwo">
@@ -1066,7 +1075,7 @@
                                                         provide options?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse16" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -1078,14 +1087,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse17" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        Is Walk Pro Contractors available for commercial properties?
+                                                        Is Falcon Brickworks NYC available for commercial properties?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse17" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -1097,14 +1106,14 @@
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
-                                                <h2 class="panel-title">
+                                                <h3 class="panel-title">
                                                     <a class="collapsed" role="button" data-toggle="collapse"
                                                         data-parent="#accordion" href="#collapse18" aria-expanded="false"
                                                         aria-controls="collapseTwo">
-                                                        How do I schedule an appointment with Walk Pro Contractors?
+                                                        How do I schedule an appointment with Falcon Brickworks NYC?
 
                                                     </a>
-                                                </h2>
+                                                </h3>
                                             </div>
                                             <div id="collapse18" class="panel-collapse collapse" role="tabpanel"
                                                 aria-labelledby="headingTwo">
@@ -1125,6 +1134,196 @@
                     </div>
                 </div>
             </div>
+        </div> --}}
+
+
+        <div class="content-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="text-center marg-20-top marg-20-btm">
+                            <h2>FAQs</h2>
+                        </div>
+
+                        <div class="panel-group" id="accordion">
+
+                            <!-- FAQ 1 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading1">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#faq1">
+                                            What is brick repair, and why is it necessary?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        Brick repair involves fixing damaged or deteriorating bricks to maintain the
+                                        structural integrity and appearance of a building.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 2 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading2">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq2">
+                                            How do I identify if my bricks need repair?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Look for signs like cracks, chips, spalling, loose bricks, or mortar deterioration.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 3 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading3">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq3">
+                                            What is the importance of brick maintenance?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Brick maintenance prevents water damage, mold growth, and efflorescence.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 4 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading4">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq4">
+                                            How often should I schedule brick maintenance?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq4" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Generally, cleaning and sealing every 2 to 3 years is recommended.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 5 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading5">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq5">
+                                            Can Falcon Brickworks NYC match the color and texture?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq5" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Yes, we ensure a seamless match with your existing brickwork.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 6 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading6">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq6">
+                                            What is brick repointing?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq6" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Repointing replaces deteriorating mortar between bricks.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 7 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading7">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq7">
+                                            What is the cost of brick repair?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq7" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Cost depends on project size. Contact us for a free estimate.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 8 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading8">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq8">
+                                            Is Falcon Brickworks NYC insured?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq8" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Yes, we carry comprehensive insurance coverage.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 9 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading9">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq9">
+                                            Do you offer emergency services?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq9" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Yes, we provide emergency brick repair services.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 10 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="heading10">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq10">
+                                            Can you work on historical properties?
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="faq10" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Yes, we specialize in historical brick restoration.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 @endsection

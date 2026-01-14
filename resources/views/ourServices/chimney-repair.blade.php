@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/our-services">Services</a></li>
                         <li class="active">Chimney Repair
 
                         </li>
@@ -42,7 +42,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Walk Pro Contractors provides reliable and professional chimney
+                            <p>With over 30 years of experience, Falcon Brickworks NYC provides reliable and professional chimney
                                 repair services throughout New York City. We specialize in fixing cracked bricks,
                                 deteriorating mortar, leaning structures, and other chimney issues that can affect both
                                 safety and performance. Whether it’s a residential brownstone or a commercial building, our
@@ -57,8 +57,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="blog-entry-thumbnail">
-                            <img src="/assets/img/services/steptodown.com445426_8_8_11zon.webp" alt="Chimney Repair"
+                        <a   class="blog-entry-thumbnail">
+                            <img src="{{ asset('assets') }}/img/services/steptodown.com445426_8_8_11zon.webp" alt="Chimney Repair"
                                 class="img-responsive">
                         </a>
                     </div>

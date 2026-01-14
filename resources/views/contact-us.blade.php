@@ -1,7 +1,7 @@
 @extends('components.master-layout')
 @section('meta-tags')
     <meta name="description"
-        content="Contact Walk Pro Contractors for a free quote or to schedule an inspection. Fast response, reliable service, and licensed professionals.
+        content="Contact Falcon Brickworks NYC for a free quote or to schedule an inspection. Fast response, reliable service, and licensed professionals.
 ">
     <title> Contact Us Today to Get a Free Estimate
     </title>
@@ -38,40 +38,43 @@
     <div class="site-main">
         <!-- begin:block-section -->
         <div class="block-section">
-            <div id="additional-info" class="additional-info block-section bg-theme padd-20-top padd-40-btm">
+            <div id="additional-info" class="additional-info block-section  padd-20-top padd-40-btm">
                 <div class="container">
-                    <div class="row">
-
+                    <div class="row marg-40-btm">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="contact-item">
+                                <div class="contact-item-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <span class="contact-item-title">Phone:</span>
+                                <div class="contact-item-info"><a class="contact-item-title" href="tel:+16466533986">+1
+                                        (646)
+                                        653-3986</a></div>
+                            </div>
+                        </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="contact-item">
                                 <div class="contact-item-icon">
                                     <i class="fa fa-envelope-o"></i>
-                                </div><!-- .contact-item-icon -->
-                                <h4 class="contact-item-title">Email address:</h4>
-                                <div class="contact-item-info"><a href="mailto:info@brickrepairnyc.com"
-                                        style="color: white;">info@brickrepairnyc.com</a></div>
-                            </div><!-- .contact-item -->
-                        </div><!-- .col-# -->
+                                </div>
+                                <span class="contact-item-title">Email address:</span>
+                                <div class="contact-item-info"><a class="contact-item-title"
+                                        href="mailto:info@brickrepairnyc.com">info@brickrepairnyc.com</a></div>
+                            </div>
+                        </div>
+
                         <div class="col-md-4 col-sm-6">
                             <div class="contact-item">
                                 <div class="contact-item-icon">
                                     <i class="fa fa-map-marker"></i>
-                                </div><!-- .contact-item-icon -->
-                                <h4 class="contact-item-title">Office address:</h4>
-                                <div class="contact-item-info">3467 Steenwick Ave, Bronx, NY 10475</div>
-                            </div><!-- .contact-item -->
-                        </div><!-- .col-# -->
-                        <div class="col-md-4 col-sm-6">
-                            <div class="contact-item">
-                                <div class="contact-item-icon">
-                                    <i class="fa fa-clock-o"></i>
-                                </div><!-- .contact-item-icon -->
-                                <h4 class="contact-item-title">Opening times:</h4>
-                                <div class="contact-item-info">Mon - Sat: 6.00 AM - 11:30 PM</div>
-                            </div><!-- .contact-item -->
-                        </div><!-- .col-# -->
-                    </div><!-- .row -->
-                </div><!-- container -->
+                                </div>
+                                <span class="contact-item-title">Office address:</span>
+                                <div class="contact-item-info"><a class="contact-item-title">3467 Steenwick Ave, Bronx, NY
+                                        10475</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div><!-- #additional-info -->
 
             <!-- begin:contact -->
@@ -140,8 +143,8 @@
 
                                 <div class="form-group">
                                     <label for="zip">ZIP Code</label>
-                                    <input type="text" name="zip" class="form-control form-bordered" id="zip"
-                                        required value="{{ old('zip') }}">
+                                    <input type="text" name="zip" class="form-control form-bordered"
+                                        id="zip" required value="{{ old('zip') }}">
                                     @error('zip')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror

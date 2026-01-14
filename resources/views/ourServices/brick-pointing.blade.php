@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/our-services">Services</a></li>
                         <li class="active">Brick Pointing
                         </li>
                     </ol>
@@ -35,7 +35,7 @@
                             <h1>Trusted Brick Pointing Experts in NYC – 30+ Years of Excellence
 
                             </h1>
-                            <p>With over 30 years of experience, Walk Pro Contractors is a trusted name in brick pointing and
+                            <p>With over 30 years of experience, Falcon Brickworks NYC is a trusted name in brick pointing and
                                 masonry services across New York City. We serve both residential and commercial clients,
                                 delivering high-quality craftsmanship that preserves and enhances your property's structure
                                 and appearance. From brownstones to commercial buildings, we handle each project with
@@ -48,8 +48,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="blog-entry-thumbnail">
-                            <img src="/assets/img/services/a-mason-applies-cement-to-a-brick-to-build-a-wall-2025-01-08-09-24-38-utc_1_1_11zon.webp"
+                        <a   class="blog-entry-thumbnail">
+                            <img src="{{ asset('assets') }}/img/services/a-mason-applies-cement-to-a-brick-to-build-a-wall-2025-01-08-09-24-38-utc_1_1_11zon.webp"
                                 alt="Brick Pointing" class="img-responsive">
                         </a>
                     </div>

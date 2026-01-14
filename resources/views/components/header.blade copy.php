@@ -125,7 +125,7 @@
 }
 </script>
 
-{{-- <div class="header header-page">
+<div class="header header-page">
     <div class="site-header-affix-wrapper">
         <div id="masthead" class="site-header header-dark" role="banner">
             <div class="container align-items-center justify-content-center">
@@ -200,4 +200,4 @@
 
         </div>
     </div>
-</div> --}}
+</div>

@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/our-services">Services</a></li>
                         <li class="active">Brick Wall Repair
 
 
@@ -44,7 +44,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Walk Pro Contractors offers expert brick wall repair services
+                            <p>With over 30 years of experience, Falcon Brickworks NYC offers expert brick wall repair services
                                 throughout New York City. We handle everything from cracked or damaged walls to mortar
                                 deterioration, restoring both the strength and appearance of residential and commercial
                                 brick structures. Our team ensures repairs are seamless, durable, and in keeping with your
@@ -58,8 +58,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="blog-entry-thumbnail">
-                            <img src="/assets/img/services/steptodown.com254736_5_5_11zon.webp" alt="Brick Wall Repair"
+                        <a   class="blog-entry-thumbnail">
+                            <img src="{{ asset('assets') }}/img/services/steptodown.com254736_5_5_11zon.webp" alt="Brick Wall Repair"
                                 class="img-responsive">
                         </a>
                     </div>

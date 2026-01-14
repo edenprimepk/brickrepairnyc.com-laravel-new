@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/our-services">Services</a></li>
                         <li class="active">Brick Repair & Replacement
 
                         </li>
@@ -38,7 +38,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Walk Pro Contractors specializes in expert brick repair and
+                            <p>With over 30 years of experience, Falcon Brickworks NYC specializes in expert brick repair and
                                 replacement services across New York City. We work with both residential and commercial
                                 clients to fix cracked, damaged, or deteriorating brickwork, restoring both the strength and
                                 appearance of your structure. Whether it's replacing individual bricks or repairing large
@@ -52,8 +52,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="blog-entry-thumbnail">
-                            <img src="/assets/img/services/bricklayer-puts-bricks-to-make-a-wall-2024-10-18-08-17-59-utc_2_2_11zon.webp"
+                        <a   class="blog-entry-thumbnail">
+                            <img src="{{ asset('assets') }}/img/services/bricklayer-puts-bricks-to-make-a-wall-2024-10-18-08-17-59-utc_2_2_11zon.webp"
                                 alt="Brick Repair & Replacement" class="img-responsive">
                         </a>
                     </div>

@@ -4,9 +4,10 @@
            <div class="row">
                <div class="col-md-3 col-sm-6">
                    <section class="widget">
-                       <img src="/assets/img/img-logo.png" alt="bootstrap theme for construction companies"
+                       <img src="{{ asset('assets') }}/img/img-logo.png" alt="bootstrap theme for construction companies"
                            class="img-responsive marg-20-btm marg-20-top">
-                       <p><i class="fa fa-home" style="color:#ffc107; margin-right:8px;"></i><a>3467 Steenwick Ave, Bronx, NY 10475</a></p>
+                       <p><i class="fa fa-home" style="color:#ffc107; margin-right:8px;"></i><a>3467 Steenwick Ave,
+                               Bronx, NY 10475</a></p>
                        <p>
                        <p>
                            <a href="tel:+16466533986">
@@ -23,7 +24,7 @@
                        <h3 class="widget-title">Quick Links</h3>
                        <ul>
                            <li><a href="/">Home</a></li>
-                           <li><a href="/services">Services</a></li>
+                           <li><a href="/our-services">Services</a></li>
                            <li><a href="/blog">Blog</a></li>
                            <li><a href="/contact-us">Contact Us</a></li>
                            <li><a href="/privacy-policy">Privacy And Policy</a></li>
@@ -36,7 +37,7 @@
                    <section class="widget">
                        <h3 class="widget-title">Our Services</h3>
                        <ul>
-                           <li><a href="//brick-pointing">Brick Pointing
+                           <li><a href="/brick-pointing">Brick Pointing
                                </a></li>
                            <li><a href="/tuckpointing">Tuckpointing</a></li>
                            <li><a href="/spot-pointing">Spot Pointing
@@ -77,21 +78,3 @@
        </div><!-- .container -->
    </div><!-- #colophon -->
    <!-- end:footer -->
-
-
-
-   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <script src="{{ asset('assets/plugins/jquery.min.js') }}"></script>
-   <!-- Bootstrap JS -->
-   <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
-   <!-- Other Plugins -->
-   <script src="{{ asset('assets/plugins/parallax.min.js') }}"></script>
-   <script src="{{ asset('assets/js/navigation.js') }}"></script>
-   <script src="{{ asset('assets/plugins/jquery.easing.js') }}"></script>
-   <script src="{{ asset('assets/plugins/jquery.magnific-popup.min.js') }}"></script>
-   <script src="{{ asset('assets/plugins/imagesloaded.pkgd.min.js') }}"></script>
-   <script src="{{ asset('assets/plugins/isotope.pkgd.min.js') }}"></script>
-   <script src="{{ asset('assets/plugins/owl.carousel.min.js') }}"></script>
-
-   <!-- Main Script -->
-   <script src="{{ asset('assets/js/script.min.js') }}"></script>

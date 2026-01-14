@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/our-services">Services</a></li>
                         <li class="active">Brick Parapet Restoration
 
                         </li>
@@ -40,7 +40,7 @@
 
 
                             </h1>
-                            <p>With over 30 years of experience, Walk Pro Contractors specializes in expert brick parapet
+                            <p>With over 30 years of experience, Falcon Brickworks NYC specializes in expert brick parapet
                                 restoration across New York City. We restore and reinforce parapet walls to ensure safety,
                                 structural integrity, and aesthetic appeal for both residential and commercial buildings.
                                 Whether your parapet shows signs of cracking, leaning, or mortar deterioration, our skilled
@@ -55,8 +55,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="blog-entry-thumbnail">
-                            <img src="/assets/img/services/brick parapet.webp" alt="Brick Parapet Restoration"
+                        <a   class="blog-entry-thumbnail">
+                            <img src="{{ asset('assets') }}/img/services/brick parapet.webp" alt="Brick Parapet Restoration"
                                 class="img-responsive">
                         </a>
                     </div>
