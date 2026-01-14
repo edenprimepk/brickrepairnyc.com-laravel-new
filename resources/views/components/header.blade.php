@@ -12,6 +12,7 @@
 <link href="{{ asset('assets/css/custom-style.css') }}" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.min.css') }}">
 <link rel="icon" href="{{ asset('assets/img/favicon.jpg') }}" type="image/jpg">
+<link rel="canonical" href="{{ Str::before(url()->full(), '?') }}">
 <!-- Google Tag Manager -->
 <script>
     (function(w, d, s, l, i) {
