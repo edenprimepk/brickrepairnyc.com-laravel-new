@@ -1,8 +1,7 @@
 @extends('components.master-layout')
 @section('meta-tags')
-    <meta name="description"
-        content=" Explore the blog for expert advice on brick pointing, wall repair, chimney restoration, and more. Stay informed with our latest updates and how-to guides.
-">
+    <meta name="description" content=" Explore the blog for expert advice on brick pointing, wall repair, chimney restoration, and more. Stay informed with our latest updates and how-to guides.
+    ">
     <title> Brick Repair Tips, Guides & Restoration Insights
     </title>
 @endsection
@@ -41,9 +40,13 @@
                             @foreach ($blogs as $blog)
                                 <article class="blog-entry">
                                     <a class="blog-entry-thumbnail">
-                                        <img src="{{ Storage::disk('s3')->url($blog->image) }}"
+                                        {{-- <img src="{{ Storage::disk('s3')->url($blog->image) }}"
                                             alt="{{ trim($blog->image_alt) }}" title="{{ trim($blog->image_title) }}"
-                                            class="img-responsive" />
+                                            class="img-responsive" /> --}}
+
+
+                                        <img src="/{{ ltrim($blog->image, '/') }}" alt="{{ trim($blog->image_alt) }}"
+                                            title="{{ trim($blog->image_title) }}" class="img-responsive"  />
                                     </a>
                                     <div class="blog-entry-header">
                                         <small class="text-muted">{{ date('M d, Y', strtotime($blog->created_at)) }}</small>

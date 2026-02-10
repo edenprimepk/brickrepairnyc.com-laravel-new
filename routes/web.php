@@ -15,6 +15,27 @@ use App\Http\Controllers\ContactController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+Route::get('/uploads/{path}', function ($path) {
+
+    $imageUrl = 'https://www.blog.edenconstructionny.com/public/uploads/' . $path;
+
+    $image = @file_get_contents($imageUrl);
+
+    if ($image === false) {
+        abort(404);
+    }
+
+    return response($image)
+        ->header('Content-Type', 'image/png')
+        ->header('Cache-Control', 'public, max-age=31536000');
+
+})->where('path', '.*');
+
+
+
+
 Route::group(['as' => 'frontend.'], function () {
 
     Route::get('/', [HomeController::class, 'index'])->name('home');
