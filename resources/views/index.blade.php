@@ -562,7 +562,7 @@
                 <div class="row row-no-margin">
                     <div class="image-block-item col-md-6 col-sm-5 col-xs-12">
                         <div class="image-block-item-background"
-                            style="background-image: url('assets/img/who-we-are.jpg');">
+                            style="background-image: url('{{ asset('assets') }}/img/who-we-are.jpg');">
                         </div>
                     </div>
                 </div>
@@ -669,7 +669,7 @@
                 <div class="row row-no-margin">
                     <div class="image-block-item col-md-6 col-md-offset-6 col-sm-5 col-xs-12">
                         <div class="image-block-item-background"
-                            style="background-image: url('assets/img/testimonials.jpg');"></div>
+                            style="background-image: url('{{ asset('assets') }}/img/testimonials.jpg');"></div>
                     </div>
                 </div>
             </div>
