@@ -6,7 +6,7 @@
 @stop
 
 @section('content')
-<main id="main" class="new01">
+<main id="main" class="new01" style="margin-top: 20px;">
     <div class="container py-5">
         {{-- <img src="{{ Storage::disk('s3')->url($blog->image) }}" loading="lazy" alt="{{ $blog->title }} Image"
             style="width: 100%; height: 460px; object-fit: cover;" /> --}}

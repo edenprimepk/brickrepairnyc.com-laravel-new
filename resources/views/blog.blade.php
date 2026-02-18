@@ -50,15 +50,15 @@
                                     </a>
                                     <div class="blog-entry-header">
                                         <small class="text-muted">{{ date('M d, Y', strtotime($blog->created_at)) }}</small>
-                                        <h2 class="entry-title entry-title-big"><a
+                                        <h2 class=""><a
                                                 href="{{ url('blog', ['slug' => $blog->slug]) }}">{{ $blog->title }}</a>
                                         </h2>
                                     </div>
-                                    <div class="blog-entry-content text-center">
+                                    <div class="blog-entry-content ">
                                         <p class="card-text my-0">{!! Str::limit($blog->body, 80) !!}</p>
 
                                         <p><a href="{{ url('blog', ['slug' => $blog->slug]) }}"
-                                                class="read-more text-center">Read more +</a></p>
+                                                class="read-more ">Read more +</a></p>
                                     </div>
                                 </article>
                                 <hr class="marg-40-top marg-40-btm">
